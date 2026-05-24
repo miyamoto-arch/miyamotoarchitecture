@@ -3,6 +3,13 @@
 	margin: auto
 	}
 
+@font-face {
+  font-family: 'Atkinson Hyperlegible';
+  src: url('./fonts/AtkinsonHyperlegibleNext-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
 /*=========Body=========*/
 
 body {

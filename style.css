@@ -3,6 +3,13 @@
 	margin: auto
 	}
 
+@font-face {
+  font-family:'Atkinson Hyperlegible';
+  src: url('./Fonts/AtkinsonHyperlegibleNext-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+	}
+
 .mySlides {
 	display:none
 	}
@@ -52,8 +59,8 @@ h3 {
 
 .mainheader h1 {
 	float:left;
-	font-family: brandon grotesque, Helvetica, Arial, san-serif;
-	font-size:14px;
+	font-family: 'Atkinson Hyperlegible', Helvetica, Arial, san-serif;
+	font-size:16px;
 	font-weight:400;
 	letter-spacing: 1px;
 	margin:40px auto 40px auto;
@@ -70,8 +77,8 @@ h3 {
 
 .mainheader nav {
 	float:right;
-	font-family:Helvetica, Arial, san-serif;
-	font-size:14px;
+	font-family:'Atkinson Hyperlegible',Helvetica, Arial, san-serif;
+	font-size:16px;
 	letter-spacing: 1px;
 	margin:40px auto 40px auto;
 	}
@@ -136,8 +143,8 @@ h3 {
 /*=========footer=========*/	
 	
 	.mainfooter {
-	font-family:Helvetica, Arial, san-serif;
-	font-size:12px;
+	font-family: 'Atkinson Hyperlegible',Helvetica, Arial, san-serif;
+	font-size:16px;
 	font-weight:200;
 	color:#a0a0a0;
 	margin-top:11px;

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Contact</title>
+	<link rel="stylesheet" type="text/css" href="contact.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link rel="icon" href="image/fav.png">
+</head>
+
+<body>
+	<header class="mainheader">
+		<h1><a href="index.html">Miyamoto Architecture</a></h1>
+		<nav>
+		<a class="burger-nav"></a>
+			<ul>
+				<li><a href="index.html">Work</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a class="selected" href="contact.html">Contact</a></li>
+				<li><a href="https://www.instagram.com/miyamotoarchitecture/?hl=en" target="_blank">IG</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<div class="contact">
+		<address class="location"><a>456 Broadway, 2nd Floor.  New York, NY 10013</a></address>
+		<address class="map"><a href="https://goo.gl/maps/QrN54keLRDB2">Get directions</a></address>
+		<address class="mail"><a href="mailto: studio@miyamotoarchitecture.com">studio@miyamotoarchitecture.com</a></address>
+	</div>
+	
+	<div id="box">
+	<form method="post" action="contactengine.php">
+	
+	<fieldset>
+		<h2>Contact Us</h2>
+		<ul>
+			<li><label for="first_name">Name:</label>
+			<input type="text" id="first_name" name="first_name" class="length" placeholder="enter your name"/></li>
+			<li><label for="email"> Email:</label>
+				<input type="text" id="email" name="email" class="length" placeholder="enter your email address"/></li>
+			<li><label for="message"> Message:</label>
+				<textarea id="message" name="message"> </textarea></li>
+		</ul>
+	</fieldset>
+		<input type="submit" class="submit_button" value="Submit"/>
+	</form>
+	</div>
+
+
+	<!--<footer class="mainfooter">
+			<p>&copy;2018 Miyamoto Architecture PLLC</p>
+	</footer>-->
+	
+<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="menu.js"></script>
+
+</body>
+		
+</html>

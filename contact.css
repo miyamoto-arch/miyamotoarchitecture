@@ -27,7 +27,7 @@ body {
 	float:left;
 	font-family:Helvetica, Arial, san-serif;
 	font-size:11px;
-    letter-spacing: 1.5px;
+    letter-spacing: 1px;
 	font-weight:400;
 	margin:40px auto 40px auto;
 	}
@@ -45,7 +45,7 @@ body {
 	float:right;
 	font-family:Helvetica, Arial, san-serif;
 	font-size:11px;
-	letter-spacing: 1.25px;
+	letter-spacing: 1px;
 	margin:40px auto 40px auto;
 	}
 

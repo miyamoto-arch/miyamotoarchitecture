@@ -114,6 +114,28 @@ h3 {
 	width:75%;
 	}
 
+/*=========Contact info=========*/
+	
+	.contact {
+	display:inline-block;
+	font-family:Helvetica, Arial, san-serif;
+	font-size:11px;
+	letter-spacing: 1px;
+	text-align:left;
+	width:50%;
+	}
+	
+	.mail {
+	font-style:normal;
+	font-weight:400;
+	letter-spacing: 1.125px;
+	margin-bottom:4%;
+	}
+	
+	.mail a:link, .mail a:visited {
+	color:#000;
+	}
+
 /*=========footer=========*/	
 	
 	.mainfooter {

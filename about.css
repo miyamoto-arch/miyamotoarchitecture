@@ -117,7 +117,7 @@ h3 {
 /*=========Contact info=========*/
 	
 	.contact {
-	display:inline-block;
+	/*==display:inline-block;==*/
 	font-family:Helvetica, Arial, san-serif;
 	font-size:16px;
 	letter-spacing: 1px;

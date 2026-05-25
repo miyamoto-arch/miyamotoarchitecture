@@ -178,8 +178,8 @@ body {
 .mainheader nav {
 	float:right;
 	font-family:'Atkinson Hyperlegible',Helvetica, Arial, san-serif;
-	font-size:11px;
-	letter-spacing: 1.25px;
+	/*==font-size:11px;
+	letter-spacing: 1.25px;==*/
 	margin:40px auto 10px auto;
 	}
 
